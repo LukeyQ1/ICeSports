@@ -1,0 +1,108 @@
+body {
+    font: 16px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+
+    background-image: url("img/img-homebg.png");
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-color: #1b1b1b;
+  }
+  p {font-size: 16px;}
+/* Navbar */
+  .navbar {
+    margin-bottom: 0;
+    background-color: #000000ad;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #f5f6f7 !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f41e1e !important;
+      background-color: #242424 !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .dropdown-menu {
+      background-color: #242424 !important;
+  }
+  .open .dropdown {
+    background-color: #242424 !important;
+  }
+/* Main */
+  .background {
+    background-color: #000000ad;
+    color: #f5f6f7;
+    min-height: 100vh;
+    background-size: cover;
+  }
+  .footer {
+    font: 8px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #1b1b1b;
+    width: 100%;
+  }
+  .icon {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 28px;
+  }
+
+  .title {
+    font: 64px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .header_icon {
+    width: 90px;
+    height: 90px;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+
+  a:link {
+    color: #f5f6f7;
+    text-decoration: none;
+}
+a:visited {
+    color: #f5f6f7;
+    text-decoration: none;
+}
+a:hover {
+    color: #f41e1e;
+    text-decoration: none;
+}
+a:active {
+    color: #f41e1e;
+    text-decoration: none;
+}
+/* side scaling */
+  .row.content {height: 150px}
+
+  .sidenav {
+    padding-top: 20px;
+    height: 100%;
+  }
+  @media screen and (max-width: 1199px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .sidebar {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height: auto;}
+  }

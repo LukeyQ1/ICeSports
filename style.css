@@ -1,5 +1,5 @@
 body {
-    font: 16px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font: 16px 'Montserrat', sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
 
@@ -16,7 +16,7 @@ body {
     background-color: #000000ad;
     z-index: 9999;
     border: 0;
-    font-size: 12px !important;
+    font: 12px 'Montserrat semi-bold', sans-serif !important;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
     border-radius: 0;
@@ -45,7 +45,7 @@ body {
     background-size: cover;
   }
   .footer {
-    font: 8px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font: 8px 'Montserrat', sans-serif;
     background-color: #1b1b1b;
     width: 100%;
   }
@@ -58,7 +58,7 @@ body {
   }
 
   .title {
-    font: 64px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font: 64px 'Montserrat semi-bold', sans-serif;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -72,6 +72,11 @@ body {
     vertical-align: middle;
   }
 
+  .jumbotron {
+    font: 32px 'Montserrat semi-bold', sans-serif;
+    background-color: transparent; padding: 0px;
+  }
+/* Links */
   a:link {
     color: #f5f6f7;
     text-decoration: none;
@@ -88,7 +93,7 @@ a:active {
     color: #f41e1e;
     text-decoration: none;
 }
-/* side scaling */
+/* Side scaling */
   .row.content {height: 150px}
 
   .sidenav {
